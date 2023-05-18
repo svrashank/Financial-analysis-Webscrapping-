@@ -16,6 +16,7 @@ for stock in soup.find_all('tr',{'class':'BdT Bdc($seperatorColor) Ta(end) Fz(s)
     stock.find("a",{'class':'C($linkColor) Cur(p) Td(n) Fw(500)'})
     Symbol = stock.td.a.text
     symbols.append(Symbol)
+    
 #On futher inspection of websites of all the companies ,Mahindra and Mahindra does not have requied information on yahoo Finance 
 # hence drop it from the symbols list 
 symbols.remove('MM.NS') 
