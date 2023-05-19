@@ -6,4 +6,15 @@
 * Random Forest Regressor was the model used to capture variations within our data 
 
 ### Code and Resources 
-
+* Python Version : 3.10 
+* Packages: BeautifulSoup, Pandas ,Numpy , Sklearn, Seaborn ,Mathplotlib 
+* Dataset : Webscraping Yahoo Fianance
+* Webscraper : BeautifulSoup ,self-written 
+* Article :Investopedia article on "must have metrics value investors"
+* https://www.investopedia.com/articles/fundamental-analysis/09/five-must-have-metrics-value-investors.asp
+  
+### Webscraping 
+* Yahoo finance have critical financial information on most of the stocks of major indexes 
+* The statistics section of the Yahoo Finance website was the main focus of this project 
+* URL for the statistics page contained the symbol ,hence ,I was able to format it and loop over it to and store the urls of top 30 companies of nifty 50 
+* Futhermore, another loop was used to visit each URL and scrap necessary variables 
