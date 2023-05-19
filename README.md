@@ -18,3 +18,18 @@
 * The statistics section of the Yahoo Finance website was the main focus of this project 
 * URL for the statistics page contained the symbol ,hence ,I was able to format it and loop over it to and store the urls of top 30 companies of nifty 50 
 * Futhermore, another loop was used to visit each URL and scrap necessary variables 
+* Columns obtained - 
+    1. Forward PE 
+    2. Trailing PE 
+    3. P/B ratio
+    4. P/S ratio 
+    5. D/E ratio 
+    6. Outstanding Shares 
+    7. Market Cap 
+  
+ ### Data Cleaning 
+* 4-5 columns had missing values .
+* Forward PE was dropped since it had many missing values 
+* D/E ratio was imputed by referring to source other than Yahoo finance 
+* Letters and symbols in their values from Market cap and outstanding shares values were dropped and converted to a suitable scale 
+* 
