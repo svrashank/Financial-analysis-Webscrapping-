@@ -48,5 +48,6 @@
 ### Model Performance 
 * Model 1 (All_columns) Error = **1799.524**
 * Model 2 (Feature_tuned_cols) Error = **1889.438** 
+![alt text](https://github.com/svrashank/Stocks_analysis/blob/master/Capture.JPG "True vs Predicted")
 
 
