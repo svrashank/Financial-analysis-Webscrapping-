@@ -39,5 +39,14 @@
 * Outstanding Shares had the highest MI Score whereas Market Cap had the lowest 
 
 ### Model Building 
-* Test and Train data were seperated 
+* Test and Train data were seperated with test size as 30% 
+* Random Forest Regressor was used to fit the model 
+* I used Cross validation with cv = 5 ,since the dataset was small 
+* Wrote a function to find the optimum n_estimators ,which turned out to be 50 
+* First the model was fitted with all the features followed by the ones with top scores in MI 
+
+### Model Performance 
+* Model 1 (All_columns) Error = **1799.524**
+* Model 2 (Feature_tuned_cols) Error = **1889.438** 
+
 
