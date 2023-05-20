@@ -32,4 +32,12 @@
 * Forward PE was dropped since it had many missing values 
 * D/E ratio was imputed by referring to source other than Yahoo finance 
 * Letters and symbols in their values from Market cap and outstanding shares values were dropped and converted to a suitable scale 
-* 
+
+### Feature Engineering 
+* Wrote a function to get a Series of Mutual information scores
+* Another function to plot the MI scores to find a relation between the features and the target 
+* Outstanding Shares had the highest MI Score whereas Market Cap had the lowest 
+
+### Model Building 
+* Test and Train data were seperated 
+
