@@ -1,4 +1,4 @@
-# Stocks Analysis : Project Overview 
+# Financial Analysis through webscrapping : Project Overview 
 * A Webscraping Project for obtaining essential financial ratios of a company from Yahoo Finance's Stats section 
 * This is followed by Analysis of the top 30 companies listed on the NIFTY 50 index of India. 
 * The aim of the project was to see what the effect of change in major financial ratios (according to investopedia article) have on stock price 
